@@ -94,11 +94,11 @@ const certifications = [
     url: 'https://coursera.org/share/c8aac2e133fc9ae7f7f3d74f96db5229'
   },
   {
-    title: 'Google Cloud DevOps Engineer',
+    title: 'Preparing for Google Cloud Certification: Cloud DevOps',
     issuer: 'Coursera Professional Certificate',
     icon: Shield,
     color: 'from-green-400 to-green-600',
-    url: 'https://coursera.org/share/44030d01bc544b16418ec271933d37f4'
+    url: 'https://coursera.org/share/145d9787a7e6793405eb24aa93d0a127'
   },
   {
     title: 'IBM Back-End Development',
