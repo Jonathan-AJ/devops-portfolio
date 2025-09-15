@@ -390,7 +390,7 @@ export default function Portfolio() {
                   <h4 className="text-lg font-semibold text-cyan-400 mb-2">
                     Practical Engineer in Electrical and Electronics
                   </h4>
-                  <p className="text-slate-300 mb-1">Bar-Ilan University | Amal 1</p>
+                  <p className="text-slate-300 mb-1">Bar-Ilan University</p>
                   <p className="text-slate-400 text-sm">2000 - 2002</p>
                 </div>
               </div>
