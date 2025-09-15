@@ -81,14 +81,14 @@ const certifications = [
   },
   {
     title: 'Terraform for the Absolute Beginner',
-    issuer: 'Coursera Professional Certificate',
+    issuer: 'Coursera Certificate',
     icon: Code,
     color: 'from-purple-400 to-purple-600',
     url: 'https://coursera.org/share/39e2824ec78f4a3cc99d249a5e9a3506'
   },
   {
     title: 'Fundamentals of Ansible',
-    issuer: 'Coursera Professional Certificate',
+    issuer: 'Coursera Certificate',
     icon: Settings,
     color: 'from-red-400 to-red-600',
     url: 'https://coursera.org/share/c8aac2e133fc9ae7f7f3d74f96db5229'
@@ -106,6 +106,13 @@ const certifications = [
     icon: Database,
     color: 'from-indigo-400 to-indigo-600',
     url: 'https://coursera.org/share/28c5f0acf59a3f8796962f629bc4bf7c'
+  },
+  {
+    title: 'Linux Server Management and Security',
+    issuer: 'Coursera Certificate',
+    icon: Database,
+    color: 'from-teal-400 to-teal-600',
+    url: 'https://coursera.org/share/e50c4ecf29faa9858ac8cc5e15e72746'
   }
 ];
 
@@ -116,10 +123,15 @@ const experience = [
     period: '2023 - Present',
     location: 'Haifa/Tel Aviv',
     highlights: [
-      'Support for 30+ medical centers with SLA-compliant high availability',
-      'Built scalable automation tools reducing setup time by 50%',
-      'Developed React-based log analysis tools for real-time monitoring',
-      '560% increase in documented incidents while maintaining reliability'
+      'Ensured high availability and reliability of mission-critical surgical video and data systems across 30+ hospitals and medical centers.',
+      'Deployed, configured, and maintained on-premise Windows Server environments, integrating with hospital networks and clinical workflows.',
+      'Built monitoring processes for server uptime, diagnostics, and proactive incident detection, minimizing service interruptions.',
+      'Integrated Intuitive products with EMR, PACS, and VNA systems using HL7/DICOM protocols, ensuring secure and compliant data exchange.',
+      'Managed SQL Server databases and network integrations to maintain data integrity and performance.',
+      'Led incident management lifecycle — structured logging, categorization, escalation, and root cause analysis (RCA) to reduce issue recurrence.',
+      'Developed automation scripts/tools to streamline device/server provisioning and automate recovery of failing processes.',
+      'Partnered with R&D, Product, and QA teams to improve system stability and drive reliability engineering practices into product development.',
+      'Delivered technical training to surgeons, nurses, and IT staff to ensure smooth adoption and operations.'
     ]
   },
   {
@@ -128,24 +140,38 @@ const experience = [
     period: '2017 - 2023',
     location: 'Qadima',
     highlights: [
-      'Rapid support for critical medical systems',
-      'Technical liaison between engineering and support teams',
-      'Minimized downtime through efficient troubleshooting'
+      'Installed and supported mission-critical clinical systems (perfusion monitoring, apheresis, automated blood collection).',
+      'Performed in-depth diagnostics, root cause analysis, and repairs to minimize downtime in life-critical environments.',
+      'Integrated monitoring platforms with hospital IT infrastructure while ensuring regulatory compliance.',
+      'Acted as technical liaison between hospitals and engineering teams, translating field issues into reliability improvements.',
+      'Trained clinical staff on safe operations, troubleshooting, and workflow optimization.',
     ]
   },
   {
-    company: 'Neviot / Treitel',
+    company: 'Treitel',
     role: 'Field Service Technician',
-    period: '2005 - 2016',
+    period: '2011 - 2016',
     location: 'Israel',
     highlights: [
-      'Provided field support, repairs, and calibration for advanced systems',
+      'Installed, calibrated, and maintained analytical and monitoring systems (spectrophotometers, turbidimeters, multiparameter meters).',
+      'Performed preventive and corrective maintenance to ensure continuous system uptime and compliance.',
+      'Delivered technical training to lab operators and engineers for system use, calibration, and troubleshooting.',
+      'Created technical documentation and calibration reports to support audit readiness and operational transparency.'
+    ]
+  },
+  {
+    company: 'Neviot',
+    role: 'Field Service Technician',
+    period: '2005 - 2011',
+    location: 'Israel',
+    highlights: [
+      'Provided field support & repairs for advanced systems',
       'Customer training and technical documentation'
     ]
   },
   {
     company: 'Israeli Air Force – Classified Unit',
-    role: 'Technical Instructor & Electrical Technician',
+    role: 'Technical Instructor & Technician',
     period: '2002 - 2005',
     location: 'Israel',
     highlights: [

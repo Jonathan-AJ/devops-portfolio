@@ -262,20 +262,26 @@ export default function Portfolio() {
             <h2 className="text-3xl font-bold text-white mb-8">About My Journey</h2>
             <div className="bg-slate-800/50 rounded-2xl p-8 border border-slate-700">
               <p className="text-lg text-slate-300 leading-relaxed mb-6">
-                I'm a <span className="text-cyan-400 font-semibold">Field Support Engineer</span> at Intuitive Surgical 
-                with over 15 years of hands-on experience troubleshooting complex production systems in mission-critical environments. 
-                My passion lies in bridging the gap between traditional field support and modern DevOps practices.
+                I am a seasoned technical professional with over 15 years of experience ensuring the reliability and performance of 
+                mission-critical healthcare systems across 30+ hospitals and clinics. In my current role as a Field Support Engineer, I design 
+                automation tools, streamline server deployments, and lead incident management processes that directly improve uptime,
+                efficiency, and service continuity.
               </p>
               <p className="text-lg text-slate-300 leading-relaxed mb-6">
-                Currently transitioning into <span className="text-green-400 font-semibold">Site Reliability Engineering (SRE)</span> and 
-                <span className="text-blue-400 font-semibold"> DevOps</span>, I focus on building reliable, automated, and scalable 
-                infrastructure using cloud-native technologies. My unique background in field support gives me a deep understanding 
-                of system reliability from the ground up.
+                Today, I am channeling this foundation into <span className="text-green-400 font-semibold">Site Reliability Engineering (SRE)</span> and 
+                <span className="text-blue-400 font-semibold"> DevOps</span>. With hands-on 
+                expertise in AWS, Kubernetes, Terraform, CI/CD pipelines, observability tools, and SQL/VMware environments, I specialize 
+                in building scalable, resilient, and automated infrastructures that bridge the gap between engineering and operations.
+              </p>
+              <p className="text-lg text-slate-300 leading-relaxed mb-6">
+                What sets me apart is my ability to translate real-world operational challenges into practical, automated solutions. 
+                Whether developing Python/PowerShell scripts that cut setup times by 50%, implementing end-to-end monitoring with 
+                Prometheus and Grafana, or integrating healthcare IT workflows, I focus on delivering solutions that are both technically
+                robust and business-aligned.
               </p>
               <p className="text-lg text-slate-300 leading-relaxed">
-                I've successfully reduced equipment setup time by 50% through automation, increased incident documentation by 560%, 
-                and built React-based tools for real-time log analysis. My goal is to bring this operational excellence to 
-                cloud infrastructure and DevOps practices.
+                I thrive at the intersection of reliability, innovation, and customer value - and I am driven to contribute these strengths to
+                organizations looking to scale their systems and improve operational excellence.
               </p>
             </div>
           </motion.div>
